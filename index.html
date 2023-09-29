@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Pacman</title>
+</head>
+<body>
+  <div class="container">
+    <div class="mundo"></div>
+    <div class="pacman"></div>
+    <div class="pacman-muerte ocultar"></div>
+    <div class="bluey"></div>
+    <div class="pinky"></div>
+    <div class="redy"></div>
+    <div class="greeny"></div>
+    <div class="info">
+      <div class="puntaje">
+      </div>
+      <div class="vidas">
+      </div>
+    </div>
+  </div>
+  <div class="game-over">
+    <h2 class="mensaje">Game Over</h2>
+    <button class="reiniciar" onclick={reiniciarMundo()}>Reiniciar</button>
+  </div>  
+  <script src="./js/script.js"></script>
+</body>
+</html>
