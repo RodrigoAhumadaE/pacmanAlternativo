@@ -188,10 +188,10 @@ function perderVidasPacman(){
 
 function gameOver(){
   let elementGameOver = document.querySelector('.game-over');
+  elementGameOver.querySelector('.puntaje-final').innerText = `Puntaje Final ${score}`;
   let elementMundo = document.querySelector('.container');
   elementGameOver.classList.add('mostrar');
   elementMundo.classList.add('desenfocar');
-
 }
 
 function animacionPerder(){
